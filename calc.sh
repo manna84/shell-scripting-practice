@@ -19,5 +19,22 @@ echo "Exit"
 read selection
 
 # If the selection matches a supported operation, execute the operation.
+
+case $selection in
+    "Add")
+    echo "User selected 'Add'"
+    ;;
+
+    "Subtract")
+    echo "User selected 'Subtract'"
+    ;;
+
+    "Exit")
+    echo "User selected 'Exit'"
+    ;;
+esac
+
+
+
 # If the selection does not match a support operation, display an error message.
 # When the operation is complete, redisplay the menu.
