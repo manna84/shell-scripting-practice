@@ -31,7 +31,12 @@ case $selection in
     ;;
 
     "Subtract")
-    echo "User selected 'Subtract'"
+    echo "Please provide first number"
+    read first_number
+     echo "Please provide second number"
+    read second_number
+    echo "The difference of $first_number and $second_number is:"
+    expr $first_number - $second_number
     ;;
 
     "Exit")
