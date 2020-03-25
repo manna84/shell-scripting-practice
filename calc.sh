@@ -22,7 +22,12 @@ read selection
 
 case $selection in
     "Add")
-    echo "User selected 'Add'"
+    echo "Please provide first number"
+    read first_number
+     echo "Please provide second number"
+    read second_number
+    echo "The sum of $first_number and $second_number is:"
+    expr $first_number + $second_number
     ;;
 
     "Subtract")
