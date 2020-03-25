@@ -32,9 +32,13 @@ case $selection in
     "Exit")
     echo "User selected 'Exit'"
     ;;
-esac
-
-
 
 # If the selection does not match a support operation, display an error message.
+
+    *)
+    echo "Unsupported operation: $selection"
+    echo "Please try again"
+    ;;
+esac
+
 # When the operation is complete, redisplay the menu.
