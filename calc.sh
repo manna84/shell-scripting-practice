@@ -63,7 +63,7 @@ while true; do
         expr $first_number / $second_number
       ;;
 
-      "Exit")
+      "Exit" | "5")
         echo "Please come again. Goodbye!"
         exit 0
       ;;
