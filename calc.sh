@@ -69,7 +69,7 @@ while true; do
       ;;
 
   # If the selection does not match a support operation, display an error message.
-
+  
       *)
         echo "Unsupported operation: $selection"
         echo "Please try again"
